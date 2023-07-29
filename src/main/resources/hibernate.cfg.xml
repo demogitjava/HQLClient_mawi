@@ -15,16 +15,11 @@
         <property name="hibernate.show_sql">true</property>
         
         <!-- demoderbydb  -->
-        <mapping class="de.jgsoftwares.hql.model.shopdb.Authorities"/>
-        <mapping class="de.jgsoftwares.hql.model.shopdb.Bootstrap_Components"/>
-        <mapping class="de.jgsoftwares.hql.model.shopdb.Eng_Product"/>
-        <mapping class="de.jgsoftwares.hql.model.shopdb.Kundenstamm"/>
-        <mapping class="de.jgsoftwares.hql.model.shopdb.Leandercodes"/>
-        <mapping class="de.jgsoftwares.hql.model.shopdb.Products"/>
-        <mapping class="de.jgsoftwares.hql.model.shopdb.Products_Check_Out_Text"/>
-        <mapping class="de.jgsoftwares.hql.model.shopdb.Shoppingcart"/>
-        <mapping class="de.jgsoftwares.hql.model.shopdb.Sprachen"/>
-        <mapping class="de.jgsoftwares.hql.model.shopdb.Webtextlayout"/>
+        <mapping class="de.jgsoftwares.hql.model.mawi.Artikelstamm"/>
+        <mapping class="de.jgsoftwares.hql.model.mawi.Buchungsarten"/>
+        <mapping class="de.jgsoftwares.hql.model.mawi.Buchungsdaten"/>
+        <mapping class="de.jgsoftwares.hql.model.mawi.Belegarten"/>
+       
              
       
     </session-factory>
