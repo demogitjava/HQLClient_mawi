@@ -16,12 +16,18 @@
   	</dependency>
   	
         <!-- https://mvnrepository.com/artifact/org.apache.derby/derbyclient -->
-<dependency>
-    <groupId>org.apache.derby</groupId>
-    <artifactId>derbyclient</artifactId>
-    <version>10.14.2.0</version>
-</dependency>
+        <dependency>
+            <groupId>org.apache.derby</groupId>
+            <artifactId>derbyclient</artifactId>
+            <version>10.14.2.0</version>
+        </dependency>
 
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>4.2.8.Final</version>
+        </dependency>
   </dependencies>
     <name>HQLClient mawi</name>
 </project>
